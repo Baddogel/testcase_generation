@@ -10,13 +10,13 @@ https://drive.google.com/file/d/14cNUtYwYOkg6RJY4CgrhQWBINYezOpHW/view?usp=shari
 Содержимое архива необходимо извлечь в корневую папку проекта
 
 Ссылка на дообученную модель GPT-2:  
-https://drive.google.com/file/d/1tdbnhkcUQM0P15IJMQiqC9xa4BbdfNDU/view?usp=sharing  
+https://drive.google.com/file/d/1K4i2zcaN92NyuH7r_FNHr60iBS1bw-7B/view?usp=sharing  
 Содержимое архива необходимо извлечь в папку models
 
 Ссылка на дообученную модель T5:  
-https://drive.google.com/file/d/1ZSZqKS_vdqtcnkHxDGAunPzDOQ-8Recv/view?usp=sharing  
+https://drive.google.com/file/d/19ZlfJKqzj1lA6RdFut7sooTa4_yACWPO/view?usp=sharing  
 Содержимое архива необходимо извлечь в папку models
 
 Ссылка на дообученную модель BART:  
-https://drive.google.com/file/d/1DTSCeCGOTp8oE0fp9kFGn5JCB9GiXUX8/view?usp=sharing  
+https://drive.google.com/file/d/1GxmEvIsfL6nXtQXPbpb-YM24au7ZMwf1/view?usp=sharing  
 Содержимое архива необходимо извлечь в папку models
