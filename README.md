@@ -4,6 +4,7 @@
  - [gpt2_train.ipynb](./gpt2_train.ipynb) - дообучение GPT-2
  - [t5_train.ipynb](./t5_train.ipynb) - дообучение T5
  - [bart_train.ipynb](./bart_train.ipynb) - дообучение BART
+ - [llama3.2_train.ipynb](./llama3.2_train.ipynb) - дообучение Llama 3.2
 
 Ссылка на предобработанный датасет:
 https://drive.google.com/file/d/14cNUtYwYOkg6RJY4CgrhQWBINYezOpHW/view?usp=sharing  
@@ -19,4 +20,8 @@ https://drive.google.com/file/d/19ZlfJKqzj1lA6RdFut7sooTa4_yACWPO/view?usp=shari
 
 Ссылка на дообученную модель BART:  
 https://drive.google.com/file/d/1GxmEvIsfL6nXtQXPbpb-YM24au7ZMwf1/view?usp=sharing  
+Содержимое архива необходимо извлечь в папку models
+
+Ссылка на дообученную модель Llama 3.2:  
+https://drive.google.com/file/d/1Jxcms0fUlkm6Cl5v1jjmriirS279GoQt/view?usp=sharing  
 Содержимое архива необходимо извлечь в папку models
