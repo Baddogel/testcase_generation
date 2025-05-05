@@ -5,6 +5,7 @@
  - [t5_train.ipynb](./t5_train.ipynb) - дообучение T5
  - [bart_train.ipynb](./bart_train.ipynb) - дообучение BART
  - [llama3.2_train.ipynb](./llama3.2_train.ipynb) - дообучение Llama 3.2
+ - [metrics.ipynb](./metrics.ipynb) - расчет метрик
 
 Ссылка на предобработанный датасет:
 https://drive.google.com/file/d/14cNUtYwYOkg6RJY4CgrhQWBINYezOpHW/view?usp=sharing  
