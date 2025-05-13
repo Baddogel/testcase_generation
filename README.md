@@ -11,6 +11,10 @@
 https://drive.google.com/file/d/14cNUtYwYOkg6RJY4CgrhQWBINYezOpHW/view?usp=sharing  
 Содержимое архива необходимо извлечь в корневую папку проекта
 
+Ссылка на независимый датасет:
+https://drive.google.com/file/d/17gSt2wuDgTiH46n0DQDym-Z9Cuix4OCO/view?usp=sharing  
+Содержимое архива необходимо извлечь в корневую папку проекта
+
 Ссылка на дообученную модель GPT-2:  
 https://drive.google.com/file/d/1K4i2zcaN92NyuH7r_FNHr60iBS1bw-7B/view?usp=sharing  
 Содержимое архива необходимо извлечь в папку models
