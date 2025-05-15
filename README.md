@@ -1,3 +1,7 @@
+# Testcase generator
+
+Приложение для генерации шагов тест-кейса по краткому текстовому описанию его сути. 
+
 ## Структура проекта
 
  - [dataset_preprocessing.ipynb](./dataset_preprocessing.ipynb) - предобработка датасета
@@ -6,12 +10,13 @@
  - [bart_train.ipynb](./bart_train.ipynb) - дообучение BART
  - [llama3.2_train.ipynb](./llama3.2_train.ipynb) - дообучение Llama 3.2
  - [metrics.ipynb](./metrics.ipynb) - расчет метрик
+ - [app.py](./app.py) - приложение с веб-интерфейсом для генерации шагов тест-кейса
 
 Ссылка на предобработанный датасет:
 https://drive.google.com/file/d/14cNUtYwYOkg6RJY4CgrhQWBINYezOpHW/view?usp=sharing  
 Содержимое архива необходимо извлечь в корневую папку проекта
 
-Ссылка на независимый датасет:
+Ссылка на независимый датасет:  
 https://drive.google.com/file/d/17gSt2wuDgTiH46n0DQDym-Z9Cuix4OCO/view?usp=sharing  
 Содержимое архива необходимо извлечь в корневую папку проекта
 
@@ -30,3 +35,38 @@ https://drive.google.com/file/d/1GxmEvIsfL6nXtQXPbpb-YM24au7ZMwf1/view?usp=shari
 Ссылка на дообученную модель Llama 3.2:  
 https://drive.google.com/file/d/1Jxcms0fUlkm6Cl5v1jjmriirS279GoQt/view?usp=sharing  
 Содержимое архива необходимо извлечь в папку models
+
+
+## Запуск приложения:
+
+После загрузки исходных файлов в директории проекта:
+1) Скачиваем итоговую модель Llama 3.2  
+2) Распаковываем в каталог ./models
+Итоговый путь к файлам модели должен выглядеть ./models/llama3.2-testcase
+3) Подготавливаем среду 
+````bash
+# Создание виртуального окружения
+python -m venv env
+
+# Активация виртуального окружения в Linux
+source env/bin/activate
+
+# Активация виртуального окружения в Windows
+env\Scripts\activate.bat
+
+# Устанавливаем библиотеки
+pip install -r requirements.txt
+````
+
+4) Отдельно устанавливаем PyTorch.
+
+Комманду для установки на Вашу ОС и аппаратную конфигурацию можно уточнить на сайте PyTorch
+https://pytorch.org/get-started/locally/
+
+5) Переходим в каталог приложения
+
+6) Запускаем streamlit сервер реализующий web-интерфейс 
+
+````bash
+streamlit run app.py
+````
