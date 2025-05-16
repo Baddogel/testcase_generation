@@ -38,10 +38,11 @@ https://drive.google.com/file/d/1Jxcms0fUlkm6Cl5v1jjmriirS279GoQt/view?usp=shari
 
 
 ## Запуск приложения:
+![Screen-374](https://github.com/user-attachments/assets/0984ee84-4efb-4dc9-954b-01029c5a57eb)
 
 После загрузки исходных файлов в директории проекта:
 1) Скачиваем итоговую модель Llama 3.2  
-2) Распаковываем в каталог ./models
+2) Распаковываем в каталог ./models  
 Итоговый путь к файлам модели должен выглядеть ./models/llama3.2-testcase
 3) Подготавливаем среду 
 ````bash
@@ -58,7 +59,7 @@ env\Scripts\activate.bat
 pip install -r requirements.txt
 ````
 
-4) Отдельно устанавливаем PyTorch.
+4) Устанавливаем PyTorch.
 
 Комманду для установки на Вашу ОС и аппаратную конфигурацию можно уточнить на сайте PyTorch
 https://pytorch.org/get-started/locally/
